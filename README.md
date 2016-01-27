@@ -1,7 +1,7 @@
-sf_tutorial_base
+sf_app_base
 ==========
 
-Symfony チュートリアル用スケルトン 
+Symfony アプリケーション作成用スケルトン 
 
 - Locale: ja
 - DB: SQLite
@@ -9,3 +9,6 @@ Symfony チュートリアル用スケルトン
 - Layout Template: Bootstrap3
 - CRUD Template: Bootstrap3
 - Form: Bootstrap3
+
+- FOSUserBundle
+
