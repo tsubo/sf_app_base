@@ -9,6 +9,5 @@ Symfony アプリケーション作成用スケルトン
 - Layout Template: Bootstrap3
 - CRUD Template: Bootstrap3
 - Form: Bootstrap3
-
 - FOSUserBundle
 
