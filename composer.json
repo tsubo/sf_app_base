@@ -1,5 +1,5 @@
 {
-    "name": "tsubo/sf_tutorial_base",
+    "name": "tsubo/sf_app_base",
     "license": "proprietary",
     "type": "project",
     "autoload": {
