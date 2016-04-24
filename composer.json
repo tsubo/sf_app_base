@@ -28,7 +28,11 @@
         "incenteev/composer-parameter-handler": "^2.0",
         "friendsofsymfony/user-bundle": "~2.0@dev",
         "nesbot/carbon": "^1.21",
-        "stof/doctrine-extensions-bundle": "^1.2"
+        "stof/doctrine-extensions-bundle": "^1.2",
+        "fxp/composer-asset-plugin": "~1.1",
+        "bower-asset/jquery": "^2.2",
+        "bower-asset/bootstrap": "^3.3",
+        "bower-asset/font-awesome": "^4.6"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
@@ -61,6 +65,9 @@
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "web/assets/vendor"
         }
     }
 }
