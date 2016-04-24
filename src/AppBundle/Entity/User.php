@@ -5,6 +5,7 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Query\Expr\Base;
 use FOS\UserBundle\Model\User as BaseUser;
+use Gedmo\Timestampable\Traits\TimestampableEntity;
 
 /**
  * User
@@ -14,6 +15,8 @@ use FOS\UserBundle\Model\User as BaseUser;
  */
 class User extends BaseUser
 {
+    use TimestampableEntity;
+
     /**
      * @var int
      *
